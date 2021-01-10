@@ -1,4 +1,3 @@
-# Python_DataAnalysis_BRINGER_CANTIE
 # Python_project
 ***
 Groupe : BRINGER Erwan, CANTIE Maxime
