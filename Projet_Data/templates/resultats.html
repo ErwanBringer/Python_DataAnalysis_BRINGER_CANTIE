@@ -1,0 +1,25 @@
+<h1>API pour tester si vous êtes ou non consommateur de drogue</h1>
+
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block page_content %}
+    <h2> Voici les résultats </h2>
+    {% if result != None %}
+
+        {% if result == 0 %}
+
+            <u> Vous n'avez probablement pas consommé cette drogue lors des 365 derniers jours </u>
+
+        {% endif %}
+
+        {% if result == 1 %}
+
+            <u> Vous avez probablement consommé cette drogue lors des 365 derniers jours  </u>
+
+        {% endif %}
+
+    {% endif %}
+    
+  
+
+{% endblock %}

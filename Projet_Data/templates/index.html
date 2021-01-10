@@ -1,0 +1,12 @@
+<h1>API pour tester si vous êtes ou non consommateur de drogue</h1>
+
+<p>Veuillez remplir le questionnaire ci-dessous pour prédire si vous avez consommé la drogue choisi ces 365 derniers jours</p>
+
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block page_content %}
+
+    {{ wtf.quick_form(form) }}
+  
+
+{% endblock %}
